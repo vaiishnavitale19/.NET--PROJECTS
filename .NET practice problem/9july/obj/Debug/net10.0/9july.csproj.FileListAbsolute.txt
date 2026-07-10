@@ -1,0 +1,14 @@
+C:\practical\9july\obj\Debug\net10.0\9july.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical\9july\obj\Debug\net10.0\9july.AssemblyInfoInputs.cache
+C:\practical\9july\obj\Debug\net10.0\9july.AssemblyInfo.cs
+C:\practical\9july\obj\Debug\net10.0\9july.csproj.CoreCompileInputs.cache
+C:\practical\9july\bin\Debug\net10.0\9july.exe
+C:\practical\9july\bin\Debug\net10.0\9july.deps.json
+C:\practical\9july\bin\Debug\net10.0\9july.runtimeconfig.json
+C:\practical\9july\bin\Debug\net10.0\9july.dll
+C:\practical\9july\bin\Debug\net10.0\9july.pdb
+C:\practical\9july\obj\Debug\net10.0\9july.dll
+C:\practical\9july\obj\Debug\net10.0\refint\9july.dll
+C:\practical\9july\obj\Debug\net10.0\9july.pdb
+C:\practical\9july\obj\Debug\net10.0\9july.genruntimeconfig.cache
+C:\practical\9july\obj\Debug\net10.0\ref\9july.dll
