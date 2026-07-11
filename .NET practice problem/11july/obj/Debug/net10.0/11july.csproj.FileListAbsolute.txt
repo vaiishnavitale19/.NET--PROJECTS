@@ -1,0 +1,9 @@
+C:\practical\11july\bin\Debug\net10.0\11july.exe
+C:\practical\11july\bin\Debug\net10.0\11july.dll
+C:\practical\11july\obj\Debug\net10.0\11july.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical\11july\obj\Debug\net10.0\11july.AssemblyInfoInputs.cache
+C:\practical\11july\obj\Debug\net10.0\11july.AssemblyInfo.cs
+C:\practical\11july\obj\Debug\net10.0\11july.csproj.CoreCompileInputs.cache
+C:\practical\11july\obj\Debug\net10.0\11july.dll
+C:\practical\11july\obj\Debug\net10.0\refint\11july.dll
+C:\practical\11july\obj\Debug\net10.0\11july.pdb
