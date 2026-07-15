@@ -1,0 +1,14 @@
+C:\practical\15july_assignment\bin\Debug\net10.0\15july_assignment.exe
+C:\practical\15july_assignment\bin\Debug\net10.0\15july_assignment.deps.json
+C:\practical\15july_assignment\bin\Debug\net10.0\15july_assignment.runtimeconfig.json
+C:\practical\15july_assignment\bin\Debug\net10.0\15july_assignment.dll
+C:\practical\15july_assignment\bin\Debug\net10.0\15july_assignment.pdb
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.AssemblyInfoInputs.cache
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.AssemblyInfo.cs
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.csproj.CoreCompileInputs.cache
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.dll
+C:\practical\15july_assignment\obj\Debug\net10.0\refint\15july_assignment.dll
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.pdb
+C:\practical\15july_assignment\obj\Debug\net10.0\15july_assignment.genruntimeconfig.cache
+C:\practical\15july_assignment\obj\Debug\net10.0\ref\15july_assignment.dll
