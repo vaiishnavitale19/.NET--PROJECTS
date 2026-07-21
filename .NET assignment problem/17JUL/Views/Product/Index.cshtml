@@ -1,0 +1,68 @@
+﻿@model List<_17jul_ShopEase.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h2>Product List</h2>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+
+        <th>Id</th>
+
+        <th>Name</th>
+
+        <th>Category</th>
+
+        <th>Price</th>
+
+        <th>Quantity</th>
+
+        <th>Brand</th>
+
+        <th>Discount</th>
+
+        <th>Rating</th>
+
+        <th>Action</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.ProductId</td>
+
+            <td>@item.Name</td>
+
+            <td>@item.Category</td>
+
+            <td>@item.Price</td>
+
+            <td>@item.Quantity</td>
+
+            <td>@item.Brand</td>
+
+            <td>@item.Discount</td>
+
+            <td>@item.Rating</td>
+            
+            <td>
+                <a href="/Product/Edit?id=@item.ProductId">Edit</a> |
+
+                <a href="/Product/Delete?id=@item.ProductId">Delete</a>
+            </td>
+
+        </tr>
+    }
+    
+
+</table>
+
+<br />
+
+<a href="/Product/Create">Add New Product</a>
+<a href="/Product/Search">Search Product</a>

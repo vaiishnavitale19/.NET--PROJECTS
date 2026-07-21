@@ -1,0 +1,41 @@
+﻿@model _17jul_ShopEase.Models.Order
+
+<h2>Checkout</h2>
+
+<form method="post">
+
+    Order Id
+
+    <br />
+
+    <input asp-for="OrderId" />
+
+    <br /><br />
+
+    Customer Name
+
+    <br />
+
+    <input asp-for="CustomerName" />
+
+    <br /><br />
+
+    Address
+
+    <br />
+
+    <textarea asp-for="Address"></textarea>
+
+    <br /><br />
+
+    Total Amount
+
+    <br />
+
+    <input asp-for="Total" />
+
+    <br /><br />
+
+    <input type="submit" value="Place Order" />
+
+</form>

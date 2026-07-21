@@ -1,0 +1,17 @@
+﻿@model _17jul_ShopEase.Models.Payment
+
+<h2>Payment Successful</h2>
+
+<hr />
+
+<p>Payment Id : @Model.PaymentId</p>
+
+<p>Amount : ₹ @Model.Amount</p>
+
+<p>Payment Method : @Model.PaymentMethod</p>
+
+<p>Status : @Model.Status</p>
+
+<br />
+
+<a href="/Order/Invoice">Generate Invoice</a>

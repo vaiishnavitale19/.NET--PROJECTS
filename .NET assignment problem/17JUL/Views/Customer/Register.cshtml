@@ -1,0 +1,71 @@
+﻿@model _17jul_ShopEase.Models.Customer
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Customer Registration</h2>
+
+<form method="post">
+
+    Customer Id
+
+    <br />
+
+    <input asp-for="CustomerId" />
+
+    <br /><br />
+
+    Name
+
+    <br />
+
+    <input asp-for="Name" />
+
+    <br /><br />
+
+    Email
+
+    <br />
+
+    <input asp-for="Email" />
+
+    <br /><br />
+
+    Mobile
+
+    <br />
+
+    <input asp-for="Mobile" />
+
+    <br /><br />
+
+    Username
+
+    <br />
+
+    <input asp-for="Username" />
+
+    <br /><br />
+
+    Password
+
+    <br />
+
+    <input asp-for="Password" />
+
+    <br /><br />
+
+    Address
+
+    <br />
+
+    <textarea asp-for="Address"></textarea>
+
+    <br /><br />
+
+    <input type="submit" value="Register" />
+
+</form>
+
+<h3>@ViewBag.Message</h3>

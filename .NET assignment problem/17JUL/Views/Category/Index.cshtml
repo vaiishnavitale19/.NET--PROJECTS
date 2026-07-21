@@ -1,0 +1,40 @@
+﻿@model List<_17jul_ShopEase.Models.Category>
+
+<h2>Category List</h2>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+
+        <th>Category Id</th>
+
+        <th>Category Name</th>
+
+        <th>Action</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.CategoryId</td>
+
+            <td>@item.CategoryName</td>
+
+            <td>
+
+                <a href="/Category/Edit?id=@item.CategoryId">Edit</a> |
+
+                <a href="/Category/Delete?id=@item.CategoryId">Delete</a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<br />
+
+<a href="/Category/Create">Add New Category</a>

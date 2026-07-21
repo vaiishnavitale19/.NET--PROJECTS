@@ -1,0 +1,40 @@
+﻿@model _17jul_ShopEase.Models.Product
+
+<h2>Search Product</h2>
+
+<form method="post">
+
+    Product Id
+
+    <br />
+
+    <input type="number" name="productId" />
+
+    <br /><br />
+
+    <input type="submit" value="Search" />
+
+</form>
+
+<hr />
+
+@if (Model != null)
+{
+    <h3>Product Found</h3>
+
+    <p>Product Id : @Model.ProductId</p>
+
+    <p>Name : @Model.Name</p>
+
+    <p>Category : @Model.Category</p>
+
+    <p>Price : @Model.Price</p>
+
+    <p>Quantity : @Model.Quantity</p>
+
+    <p>Brand : @Model.Brand</p>
+}
+else
+{
+    <p>No Product Found.</p>
+}

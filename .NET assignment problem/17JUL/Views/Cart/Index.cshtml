@@ -1,0 +1,51 @@
+﻿@model List<_17jul_ShopEase.Models.Cart>
+
+<h2>Shopping Cart</h2>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+
+        <th>Product</th>
+
+        <th>Price</th>
+
+        <th>Quantity</th>
+
+        <th>Total</th>
+
+        <th>Action</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.ProductName</td>
+
+            <td>@item.Price</td>
+
+            <td>@item.Quantity</td>
+
+            <td>@(item.Price * item.Quantity)</td>
+
+            <td>
+
+                <a href="/Cart/Remove?productName=@item.ProductName">
+
+                    Remove
+
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+<br />
+<h3>Total Amount : @ViewBag.Total</h3>
+
+
+<a href="/Cart/Add">Add Product</a>

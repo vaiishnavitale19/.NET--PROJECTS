@@ -1,0 +1,51 @@
+﻿@model List<_17jul_ShopEase.Models.Order>
+
+<h2>Order History</h2>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+
+        <th>Order Id</th>
+
+        <th>Customer</th>
+
+        <th>Address</th>
+
+        <th>Total</th>
+
+        <th>Invoice</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.OrderId</td>
+
+            <td>@item.CustomerName</td>
+
+            <td>@item.Address</td>
+
+            <td>@item.Total</td>
+
+            <td>
+
+                <a href="/Order/Invoice">
+
+                    Invoice
+                    <a href="/Payment/Index">Payment</a>
+
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<br />
+
+<a href="/Order/Checkout">New Order</a>
