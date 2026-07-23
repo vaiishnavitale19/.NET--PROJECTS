@@ -1,0 +1,35 @@
+﻿@model List<_16jul.Models.Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Student Details</h2>
+    <p>Here are the Student information</p>
+</div>
+
+<table border="3" cellpadding="10" style="margin:auto; text-align:center; ">
+    <tr style="color:red; background-color:cyan">
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>COURSE</th>
+        <th>BRANCH</th>
+        <th>FEES</th>
+        <th>GENDER</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr  style="background-color:aliceblue">
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>@item.Course</td>
+            <td>@item.Branch</td>
+            <td>@item.Fees</td>
+            <td>@item.Gender</td>
+        </tr>
+    }
+</table>
