@@ -1,0 +1,30 @@
+﻿@model List<_23July_Assignment.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Product List</h2>
+
+<p>
+    <a asp-controller="Home" asp-action="Logout">Logout</a>
+</p>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+
+</table>
