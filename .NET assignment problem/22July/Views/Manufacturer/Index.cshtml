@@ -1,0 +1,88 @@
+﻿@model AutomobileManagementSystem.Models.Manufacturer
+
+@{
+    ViewData["Title"] = "Manufacturer";
+}
+
+<h2>Manufacturer Details</h2>
+
+<h3 style="color:green">
+    Automobile Registered Successfully
+</h3>
+
+<p>
+    <b>Vehicle Name:</b> @ViewBag.VehicleName
+</p>
+
+<p>
+    <b>Brand:</b> @ViewBag.Brand
+</p>
+
+<hr />
+
+<form asp-action="Index" asp-controller="Manufacturer" method="post">
+
+    <div>
+        <label asp-for="ManufacturerName"></label>
+        <input asp-for="ManufacturerName" class="form-control" />
+        <span asp-validation-for="ManufacturerName" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Country"></label>
+        <input asp-for="Country" class="form-control" />
+        <span asp-validation-for="Country" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="ContactNumber"></label>
+        <input asp-for="ContactNumber" class="form-control" />
+        <span asp-validation-for="ContactNumber" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="EmailAddress"></label>
+        <input asp-for="EmailAddress" class="form-control" />
+        <span asp-validation-for="EmailAddress" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Save Manufacturer</button>
+
+</form>
+
+@if (Model != null)
+{
+    <hr />
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>Manufacturer Name</th>
+            <th>Country</th>
+            <th>Contact Number</th>
+            <th>Email Address</th>
+        </tr>
+
+        <tr>
+            <td>@Model.ManufacturerName</td>
+            <td>@Model.Country</td>
+            <td>@Model.ContactNumber</td>
+            <td>@Model.EmailAddress</td>
+        </tr>
+
+    </table>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
