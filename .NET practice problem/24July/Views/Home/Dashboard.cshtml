@@ -1,0 +1,30 @@
+﻿@model List<_24July.Models.Notice>
+
+<h2>Dashboard</h2>
+
+<h3 style="color:darkred">Welcome @ViewBag.User</h3>
+
+<hr />
+
+<h3>Notices</h3>
+
+<table class="table table-bordered" cellpadding="5" >
+    <tr style="background-color:Highlight">
+        <th>Id</th>
+        <th>Title</th>
+        <th>Date</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Title</td>
+            <td>@item.Date</td>
+        </tr>
+    }
+</table>
+
+<br />
+
+<a asp-action="Logout" class="btn btn-danger">LOGOUT</a>
