@@ -1,0 +1,14 @@
+C:\practical\8july3\bin\Debug\net10.0\8july3.exe
+C:\practical\8july3\bin\Debug\net10.0\8july3.deps.json
+C:\practical\8july3\bin\Debug\net10.0\8july3.runtimeconfig.json
+C:\practical\8july3\bin\Debug\net10.0\8july3.dll
+C:\practical\8july3\bin\Debug\net10.0\8july3.pdb
+C:\practical\8july3\obj\Debug\net10.0\8july3.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical\8july3\obj\Debug\net10.0\8july3.AssemblyInfoInputs.cache
+C:\practical\8july3\obj\Debug\net10.0\8july3.AssemblyInfo.cs
+C:\practical\8july3\obj\Debug\net10.0\8july3.csproj.CoreCompileInputs.cache
+C:\practical\8july3\obj\Debug\net10.0\8july3.dll
+C:\practical\8july3\obj\Debug\net10.0\refint\8july3.dll
+C:\practical\8july3\obj\Debug\net10.0\8july3.pdb
+C:\practical\8july3\obj\Debug\net10.0\8july3.genruntimeconfig.cache
+C:\practical\8july3\obj\Debug\net10.0\ref\8july3.dll
