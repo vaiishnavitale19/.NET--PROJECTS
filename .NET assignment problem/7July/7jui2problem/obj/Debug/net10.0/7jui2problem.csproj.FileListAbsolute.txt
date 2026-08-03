@@ -1,0 +1,14 @@
+C:\practical\7jui2problem\bin\Debug\net10.0\7jui2problem.exe
+C:\practical\7jui2problem\bin\Debug\net10.0\7jui2problem.deps.json
+C:\practical\7jui2problem\bin\Debug\net10.0\7jui2problem.runtimeconfig.json
+C:\practical\7jui2problem\bin\Debug\net10.0\7jui2problem.dll
+C:\practical\7jui2problem\bin\Debug\net10.0\7jui2problem.pdb
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.AssemblyInfoInputs.cache
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.AssemblyInfo.cs
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.csproj.CoreCompileInputs.cache
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.dll
+C:\practical\7jui2problem\obj\Debug\net10.0\refint\7jui2problem.dll
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.pdb
+C:\practical\7jui2problem\obj\Debug\net10.0\7jui2problem.genruntimeconfig.cache
+C:\practical\7jui2problem\obj\Debug\net10.0\ref\7jui2problem.dll
