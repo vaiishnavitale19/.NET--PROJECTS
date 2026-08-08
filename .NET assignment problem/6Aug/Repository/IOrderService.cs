@@ -1,0 +1,17 @@
+﻿using _6Aug.Models;
+
+namespace _6Aug.Repository
+{
+    public interface IOrderService
+    {
+        List<Order> GetOrders();
+
+        Order? GetOrderById(int id);
+
+        void AddOrder(Order order);
+
+        void UpdateOrder(Order order);
+
+        void DeleteOrder(int id);
+    }
+}
